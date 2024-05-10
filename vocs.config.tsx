@@ -2,7 +2,7 @@ import { defineConfig } from 'vocs'
  
 export default defineConfig({
   description: 'Smarter Accounts',
-  title: 'NaNi',
+  title: 'NANI',
   sidebar: [
     {
       text: 'Getting Started',
