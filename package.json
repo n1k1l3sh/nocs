@@ -8,6 +8,6 @@
     "preview": "vocs preview"
   },
   "dependencies": {
-    "vocs": "^1.0.0-alpha.35"
+    "vocs": "1.0.0-alpha.62"
   }
 }

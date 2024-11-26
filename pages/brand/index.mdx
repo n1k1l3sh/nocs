@@ -1,0 +1,68 @@
+import { ColorBox } from '../../components/ColorBox'
+import { GradientBox } from '../../components/GradientBox'
+
+# NANI Brand Guidelines
+
+## Core Brand Elements
+
+### Logo & Symbol
+
+- Primary Symbol: Command prompt-inspired "⌘" glyph
+- Wordmark: "NANI" in Chakra Petch Bold
+- Clearspace: Maintain minimum padding of 1x symbol height around logo
+- Minimum Size: 32px height for digital applications
+
+### Color System
+
+#### Primary Colors:
+
+<ColorBox color="#00FFFF" name="CopyCyber Blue" />
+<ColorBox color="#FFFF00" name="Neon Yellow" />
+<ColorBox color="#FF00FF" name="Digital Magenta" />
+
+#### Secondary Colors:
+<ColorBox color="#000000" name="CopyDeep Space" />
+<ColorBox color="#FFFFFF" name="Neural White" />
+<ColorBox color="#00FF00" name="Terminal Green" />
+
+#### Gradient Combinations:
+
+<GradientBox colors={["#00FFFF", "#FF00FF"]} angle={120} name="Cyber Horizon" />
+<GradientBox colors={["#FFFF00", "#00FFFF"]} angle={45} name="Neural Network" />
+<GradientBox colors={["#00FF00", "#00FFFF"]} angle={90} name="Digital Dawn" />
+
+### Typography
+
+#### Font Families:
+- Headlines: Chakra Petch (Bold, 700)
+- Subheadings: Chakra Petch (Medium, 500)
+- Body: Inter (Regular, 400)
+- Technical/Code: JetBrains Mono
+
+#### Font Sizes:
+- H1: 48px/3rem
+- H2: 36px/2.25rem
+- H3: 24px/1.5rem
+- Body: 16px/1rem
+- Small: 14px/0.875rem
+
+### Design Elements
+
+#### Grid System
+- Base unit: 8px
+- Margin: 24px
+- Gutter: 16px
+- Column count: 12
+- Container max-width: 1200px
+
+#### Box Highlights
+- Background: Primary colors at 10% opacity
+- Border: 1px solid primary color
+- Glow effect: 0 0 20px rgba(primary-color, 0.3)
+- Corner radius: 4px
+
+#### Glitch Effect
+- RGB split distance: 2-4px
+- Animation duration: 0.2s
+- Trigger: Hover/Focus states
+- Use sparingly on key elements only

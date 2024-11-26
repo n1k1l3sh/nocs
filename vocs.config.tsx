@@ -1,16 +1,21 @@
-import { defineConfig } from 'vocs'
- 
+import { defineConfig } from "vocs";
+
 export default defineConfig({
-  description: 'Smarter Accounts',
-  title: 'NANI',
+  rootDir: "./",
+  description: "Your onchain agent",
+  title: "NANI",
   sidebar: [
     {
-      text: 'Getting Started',
-      link: '/docs/',
+      text: "Getting Started",
+      link: "/docs/",
     },
     {
-      text: 'Contracts',
-      link: '/docs/contracts'
-    }
-  ]
-})
+      text: "Contracts",
+      link: "/docs/contracts",
+    },
+    {
+      text: "Brand",
+      link: "/brand",
+    },
+  ],
+});
