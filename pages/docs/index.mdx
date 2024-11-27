@@ -1,27 +1,39 @@
-import { Footer } from '../../components/Footer'
+---
+layout: docs
+---
 
 # Getting Started
 
-The simplest way to interact with NaNi as a developer is to clone the *[Accounts](https://github.com/NaniDAO/accounts)* repository.
+Welcome to NANI, where smart accounts meet human-centric design. These smart accounts follow the ERC4337 standard, offering a powerful blend of efficiency, modularity, and ease of use.
 
-## Installation
+## What are NANI Accounts?
 
-To install with [**Foundry**](https://github.com/gakonst/foundry):
+NANI accounts are self-custodial smart contract wallets that enable:
 
-```sh
-forge install NaniDAO/accounts
-```
+- Gas-free transactions through sponsorship
+- Alternative gas payment methods including tokens and yield
+- Advanced security automations
+- Natural language interactions
+- Automated trading and DCA capabilities
+- Modular plugin architecture
 
-To install with [**Hardhat**](https://github.com/nomiclabs/hardhat):
+## Core Components
 
-```sh
-npm install NaniDAO/accounts
-```
+The main building blocks you'll work with are:
 
-The following terminal commands will allow you to run tests and simulate transactions with NaNi Accounts.
+- **App** - The interface layer for interacting with accounts
+- **Account** - Individual smart contract wallet implementation
+- **Accounts Factory** - Deployment and management of accounts
+- **NEETH** - Self-repaying ETH for gas-free operations
+- **IE** - Text-based transaction interface
+- **NANI DAO** - Protocol governance
 
-Run: `curl -L https://foundry.paradigm.xyz | bash && source ~/.bashrc && foundryup` to install the *[foundry](https://foundry.paradigm.xyz)* contract testing suite.
+## Next Steps
 
-Build the NaNi Accounts foundry project with `forge build`. Run contract tests with `forge test`. Measure gas fees with `forge snapshot`. Format code with `forge fmt`.
+Choose one of these guides to start building with NANI:
 
-<Footer />
+1. [Create Your First Account](./create-account.mdx)
+2. [Install Plugins](./plugins.mdx)
+3. [Setup Automated Trading](./automation.mdx)
+4. [Integrate NEETH](./neeth.mdx)
+5. [Enable Text Commands](./text-commands.mdx)

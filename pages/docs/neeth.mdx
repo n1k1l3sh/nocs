@@ -1,0 +1,32 @@
+---
+layout: docs
+---
+# NEETH Gas Token
+
+> NEETH v1.1.1 deployed to [0x00000000000009B4AB3f1bC2b029bd7513Fbd8ED](https://etherscan.io/address/0x00000000000009B4AB3f1bC2b029bd7513Fbd8ED)
+
+NEETH functions as both a paymaster and ERC20 gas token designed to enable smart accounts to be effectively self-funding through yield generation.
+
+## Overview
+
+When NEETH is held in an Account, the Account can use the token to pay for transaction gas fees. The gas costs are covered by the yield generated from Lido staking returns on the underlying Ethereum PoS staking.
+
+This creates a unique dynamic where:
+
+- Accounts can continuously pay for their own gas fees
+- Accounts retain a net profit position from unused operations due to yield generation
+- Gas costs are effectively subsidized by staking returns
+
+## Usage
+
+NEETH can be:
+
+1. Held by smart contract Accounts
+2. Used to pay for transaction gas fees
+3. Traded like a normal ERC20 token
+
+The underlying staking returns provide sustainable gas coverage while maintaining asset value.
+
+## Technical Details
+
+NEETH is an ERC20-compliant token that implements paymaster functionality to handle gas fee payments through yield generation from ETH staking via Lido.

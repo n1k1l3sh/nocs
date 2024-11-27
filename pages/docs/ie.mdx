@@ -1,0 +1,40 @@
+---
+layout: docs
+---
+# IE (Intents Engine)
+
+The Intents Engine (IE) is a smart contract and natural language router designed to facilitate transaction execution through natural language processing for Nani users and agents.
+
+## Contract Details
+- **Version**: v1.3.0
+- **Address**: `0x1e00002C59149d0057F12e031ecC0000d38A000C`
+
+## Overview
+
+IE translates natural language commands into executable onchain transactions. It works in conjunction with the Nani app which features a Llama3-abliterated chat model for generating userOps and transaction analysis.
+
+## Key Features
+
+- Natural language processing for transaction creation
+- Integration with Nani userOps system
+- Support for common commands like token transfers and swaps
+- Human-readable transaction generation
+
+## Examples
+
+User commands like:
+- "send 10 ETH to nanidao.eth"
+- "swap 1 ether to bitcoin"
+
+Are translated into calldata and packed into transactions compatible with bundler networks.
+
+## Interface
+
+An EOA interface is available at [ie.nani.ooo](https://ie.nani.ooo/)
+
+## Integration
+
+IE processes natural language inputs and converts them to structured transaction data that can be:
+1. Validated by smart contracts
+2. Executed through bundler networks
+3. Verified by users in a human-readable format
