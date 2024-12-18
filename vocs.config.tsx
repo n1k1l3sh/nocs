@@ -72,6 +72,10 @@ export default defineConfig({
       text: "Text Commands",
       link: "/docs/text-commands",
     },
+    {
+      text: "Token",
+      link: "/docs/token",
+    }
   ],
   socials: [
     {
